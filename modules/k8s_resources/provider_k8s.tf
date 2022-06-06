@@ -7,7 +7,7 @@ variable "password" {}
 variable "ip" {}
 variable "client_key" {}
 variable "cluster_certificate" {}
-variable client_certificate {}
+variable "client_certificate" {}
 
 provider "kubernetes" {
   ip   = "${var.ip}"
